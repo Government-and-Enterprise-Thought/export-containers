@@ -13,6 +13,11 @@ standalone without access to our build pipeline.
 |---|---|---|
 | Cyber Advisory Hub | `ghcr.io/government-and-enterprise-thought/export-containers/cyber-advisory` | [`cyber-advisory/.env.sample`](cyber-advisory/.env.sample) |
 | Policy Advisor (Cyber Policy) | `ghcr.io/government-and-enterprise-thought/export-containers/policy-advisor` | [`policy-advisor/.env.sample`](policy-advisor/.env.sample) |
+| Cyber Assurance | `ghcr.io/government-and-enterprise-thought/export-containers/cyber-assurance` | [`cyber-assurance/.env.sample`](cyber-assurance/.env.sample) |
+| Cyber Risk Assessment | `ghcr.io/government-and-enterprise-thought/export-containers/cyber-risk-assessment` | [`cyber-risk-assessment/.env.sample`](cyber-risk-assessment/.env.sample) |
+
+All four parse the client's MongoDB connection as a single JSON blob via
+`MONGODB_CONNECTION_JSON` (see each `.env.sample`).
 
 Tags: each release is published as the version tag (e.g. `:v1.4.0`) plus
 `:latest`. **Pin to a version tag in production** — `latest` moves.
