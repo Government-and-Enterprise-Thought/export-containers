@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> This repository has migrated to Forgejo: https://git.gandetl.com/Government_Enterprise_Thought_Leaders/export-containers
+> The GitHub copy is archived and read-only.
+
 # Export Containers
 
 Client-shippable container images and configuration for single-tenant
